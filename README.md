@@ -19,3 +19,17 @@ Projekt typu **ELT (Extract, Load, Transform)** napisany w Pythonie i SQL, któr
 
 ## 🔒 Bezpieczeństwo
 Dostęp do GCP odbywa się za pomocą konta usługowego (Service Account). Klucz autoryzacyjny JSON jest ukryty w pliku `.gitignore` i nie trafia do publicznego repozytorium.
+
+## 📊 Wyniki analizy
+
+Na podstawie danych pobranych z API NBP przeanalizowano dzienne zmiany kursów EUR i USD oraz relację pomiędzy obiema walutami.
+
+Analiza obejmuje:
+
+1. Zmienność dziennych kursów EUR i USD,
+2. Największe dzienne wzrosty i spadki,
+3. Zmiany procentowe kursów z wykorzystaniem funkcji LAG(),
+4. Kształtowanie się kursu krzyżowego EUR/USD,
+5. Porównanie dynamiki zmian obu walut w analizowanym okresie.
+
+Wyniki analizy zostały przedstawione w formie tabel i wizualizacji w Jupyter Notebook.
