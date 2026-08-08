@@ -1,0 +1,13 @@
+*.json
+.ipynb_checkpoints/
+.env
+*.env
+.venv/
+venv/
+pyvenv.cfg
+__pycache__/
+*.pyc
+*.csv
+*.xlsx
+*.db
+*.sqlite
